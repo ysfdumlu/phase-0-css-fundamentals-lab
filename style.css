@@ -3,3 +3,22 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header,
+section figure {
+  text-align: center;
+}
+
+section p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section#detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
